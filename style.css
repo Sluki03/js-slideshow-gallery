@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-    color: white;
+    color: #fff;
     font-family: Exo;
 }
 
@@ -38,6 +38,7 @@ h1 {
 
 .container:hover i {
     color: #FFFC;
+    text-shadow: #0007 0 0 8px;
 }
 
 .slideshow {
@@ -53,10 +54,9 @@ i {
     position: absolute;
     z-index: 10;
     cursor: pointer;
-    text-shadow: #0007 0 0 8px;
     top: 50%;
     transform: translateY(-50%);
-    transition: color .3s;
+    transition: color .3s, text-shadow .3s;
 }
 
 #prevBtn {
